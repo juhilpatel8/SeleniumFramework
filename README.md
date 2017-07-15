@@ -15,3 +15,8 @@ How to run framework ?
 1. Run UI journey
 mvn -Puser-journey
 
+
+Few Websites to Automate with best pratices.
+https://www.ultimateqa.com/best-test-automation-websites-to-practice-using-selenium-webdriver/
+
+
