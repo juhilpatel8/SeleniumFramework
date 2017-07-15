@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.barclaycardus.cucumber.RunCukesTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 64.606 sec <<< FAILURE! - in com.barclaycardus.cucumber.RunCukesTest
+Given a AUTODECLINE_ACTOR applies for consumer Loan(Scenario: Auto Decline actor-Loan Declined)  Time elapsed: 0.014 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@5f95f1e1
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'juhil-pc', ip: '192.168.0.14', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:53)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:47)
+	at com.barclaycardus.e2e.ui.pages.LoanEstimationPage.init(LoanEstimationPage.java:35)
+	at com.barclaycardus.domain.ui.helpers.ApplyUIHelper.submitALoanApplication(ApplyUIHelper.java:29)
+	at com.barclaycardus.cucumber.steps.ApplySteps.a_AUTODECLINE_ACTOR_applies_for_consumer_Loan(ApplySteps.java:25)
+	at ?.Given a AUTODECLINE_ACTOR applies for consumer Loan(features/CLApply.feature:5)
+
+Scenario: Auto Decline actor-Loan Declined  Time elapsed: 0.016 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@5f95f1e1
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'juhil-pc', ip: '192.168.0.14', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:53)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:47)
+	at com.barclaycardus.e2e.ui.pages.LoanEstimationPage.init(LoanEstimationPage.java:35)
+	at com.barclaycardus.domain.ui.helpers.ApplyUIHelper.submitALoanApplication(ApplyUIHelper.java:29)
+	at com.barclaycardus.cucumber.steps.ApplySteps.a_AUTODECLINE_ACTOR_applies_for_consumer_Loan(ApplySteps.java:25)
+	at ?.Given a AUTODECLINE_ACTOR applies for consumer Loan(features/CLApply.feature:5)
+

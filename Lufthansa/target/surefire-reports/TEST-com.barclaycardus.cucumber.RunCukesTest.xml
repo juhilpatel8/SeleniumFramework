@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.barclaycardus.cucumber.RunCukesTest" time="0.03" tests="4" errors="2" skipped="2" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
+    <property name="java.vm.version" value="25.60-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Juhil\IdeaProjects\ConsumerLanding"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Juhil\IdeaProjects\ConsumerLanding"/>
+    <property name="java.runtime.version" value="1.8.0_60-b27"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Juhil\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\Juhil\IdeaProjects\apache-maven-3.3.9\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Hewlett-Packard\SimplePass\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Juhil\IdeaProjects\apache-maven-3.3.9\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Juhil"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Juhil"/>
+    <property name="java.class.path" value="C:\Users\Juhil\IdeaProjects\apache-maven-3.3.9\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_60\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Puser-journey"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_60"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Juhil\IdeaProjects\apache-maven-3.3.9\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given a AUTODECLINE_ACTOR applies for consumer Loan" classname="Scenario: Auto Decline actor-Loan Declined" time="0.014">
+    <error message="Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@5f95f1e1&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;juhil-pc&apos;, ip: &apos;192.168.0.14&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@5f95f1e1
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'juhil-pc', ip: '192.168.0.14', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:53)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:47)
+	at com.barclaycardus.e2e.ui.pages.LoanEstimationPage.init(LoanEstimationPage.java:35)
+	at com.barclaycardus.domain.ui.helpers.ApplyUIHelper.submitALoanApplication(ApplyUIHelper.java:29)
+	at com.barclaycardus.cucumber.steps.ApplySteps.a_AUTODECLINE_ACTOR_applies_for_consumer_Loan(ApplySteps.java:25)
+	at ✽.Given a AUTODECLINE_ACTOR applies for consumer Loan(features/CLApply.feature:5)
+</error>
+    <system-out><![CDATA[Feature: Apply
+17:25:15.408 [main] DEBUG o.s.test.context.BootstrapUtils - Instantiating TestContextBootstrapper from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+17:25:15.446 [main] DEBUG o.s.t.c.s.DefaultTestContextBootstrapper - Found explicit ContextLoader class [org.springframework.boot.test.SpringApplicationContextLoader] for context configuration attributes [ContextConfigurationAttributes@54422e18 declaringClass = 'com.barclaycardus.cucumber.ConsumerLendingSteps', classes = '{class com.barclaycardus.cucumber.Application}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.boot.test.SpringApplicationContextLoader']
+17:25:15.453 [main] DEBUG o.s.t.c.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.barclaycardus.cucumber.steps.ApplySteps]
+17:25:15.466 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+17:25:15.468 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+17:25:15.468 [main] INFO  o.s.t.c.s.DefaultTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.boot.test.IntegrationTestPropertiesListener@4b29d1d2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7f485fda, org.springframework.test.context.support.DirtiesContextTestExecutionListener@28261e8e]
+17:25:15.591 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+17:25:15.592 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+17:25:15.594 [main] DEBUG o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+17:25:15.595 [main] DEBUG o.s.core.env.StandardEnvironment - Adding [integrationTest] PropertySource with search precedence immediately lower than [systemEnvironment]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.2.4.RELEASE)
+
+2016-07-31 17:25:15.876  INFO 11140 --- [           main] c.b.cucumber.steps.ApplySteps            : Starting ApplySteps on juhil-pc with PID 11140 (C:\Users\Juhil\IdeaProjects\ConsumerLanding\Lufthansa\target\test-classes started by Juhil in C:\Users\Juhil\IdeaProjects\ConsumerLanding\Lufthansa)
+2016-07-31 17:25:16.111  INFO 11140 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3148f668: startup date [Sun Jul 31 17:25:16 EDT 2016]; root of context hierarchy
+key:USER
+2016-07-31 17:25:18.254  INFO 11140 --- [           main] c.b.cucumber.steps.ApplySteps            : Started ApplySteps in 2.654 seconds (JVM running for 3.895)
+key:USER
+Journey:USER
+key:USER
+key:USER
+BASE URI:https://www.discover.com
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4) on port 34365
+Only local connections are allowed.
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario: Auto Decline actor-Loan Declined" classname="Scenario: Auto Decline actor-Loan Declined" time="0.016">
+    <error message="Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@5f95f1e1&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;juhil-pc&apos;, ip: &apos;192.168.0.14&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@5f95f1e1
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'juhil-pc', ip: '192.168.0.14', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:53)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:47)
+	at com.barclaycardus.e2e.ui.pages.LoanEstimationPage.init(LoanEstimationPage.java:35)
+	at com.barclaycardus.domain.ui.helpers.ApplyUIHelper.submitALoanApplication(ApplyUIHelper.java:29)
+	at com.barclaycardus.cucumber.steps.ApplySteps.a_AUTODECLINE_ACTOR_applies_for_consumer_Loan(ApplySteps.java:25)
+	at ✽.Given a AUTODECLINE_ACTOR applies for consumer Loan(features/CLApply.feature:5)
+</error>
+  </testcase>
+  <testcase name="When he logs into the application tracker" classname="Scenario: Auto Decline actor-Loan Declined" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then his loan application status should be DECLINED" classname="Scenario: Auto Decline actor-Loan Declined" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
