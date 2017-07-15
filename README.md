@@ -19,4 +19,7 @@ mvn -Puser-journey
 Few Websites to Automate with best pratices.
 https://www.ultimateqa.com/best-test-automation-websites-to-practice-using-selenium-webdriver/
 
+Online Shopping Cart:
+http://automationpractice.com/index.php
+
 
