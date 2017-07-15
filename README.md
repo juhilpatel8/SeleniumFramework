@@ -12,8 +12,11 @@ After setting up Git Hub ,how to add local changes to remote repository ?
 
 
 How to run framework ?
-1. Run UI journey
+1. Run UI journey with profile
 mvn -Puser-journey
+
+2. Run journey with tags
+mvn -Dcucumber.options="--tags @user" -Puser-journey
 
 
 Few Websites to Automate with best pratices.
