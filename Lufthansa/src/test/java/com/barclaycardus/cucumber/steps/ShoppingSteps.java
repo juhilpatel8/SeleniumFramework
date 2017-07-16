@@ -58,4 +58,9 @@ public class ShoppingSteps extends ConsumerLendingSteps
                 // Write code here that turns the phrase above into concrete actions
             }
 
+            @Given("^I go to \"(.*?)\" on \"(.*?)\"$")
+            public void i_go_to_on(String arg1, String arg2) throws Throwable {
+                // Write code here that turns the phrase above into concrete actions
+            }
+
         }

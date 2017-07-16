@@ -1,6 +1,5 @@
 Feature: Logging into Shopping Website
 
-  @user
   Scenario: Logging in salesforce
     Given I go to "loginURL" on "Mozilla"
     And I enter "loginusername" as "sayem4@gmail.com"

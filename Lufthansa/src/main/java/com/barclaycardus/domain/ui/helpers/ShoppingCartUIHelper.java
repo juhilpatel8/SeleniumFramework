@@ -23,6 +23,7 @@ public class ShoppingCartUIHelper  implements ShoppingCart{
        ShopingCartApplicant shopingCartApplicant=shoppingCartApplicantBuilder.buildShopingCartApplicant();
 
         String emailId =loanApplicationViewHelper.getEmailId();
+        shopingCartApplicant.setEmailAddress(emailId);
         System.out.println("Email id  ::"+emailId);
 
         SignInPage signInPage=new SignInPage().init();

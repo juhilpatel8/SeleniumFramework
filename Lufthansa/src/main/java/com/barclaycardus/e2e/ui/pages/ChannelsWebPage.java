@@ -31,6 +31,7 @@ public abstract class ChannelsWebPage<T> {
     static {
         try {
             BASE_URL = ReadProperties.init().getEnvironmentProperty("channels_base_url");
+            System.out.println("URL trying ro hit :"+BASE_URL);
         } catch (Exception e) {
             Assert.fail("Failed to find env properties");
         }
@@ -40,8 +41,13 @@ public abstract class ChannelsWebPage<T> {
     public T openPage(Class<T> clazz) {
         T page = PageFactory.initElements(webDriver, clazz);
         if (null != getPageUrl()) {
-            System.out.println("BASE URI:"+BASE_URL );
+            System.out.println("BASE URL:"+BASE_URL );
             webDriver.get(BASE_URL + getPageUrl());
+        }
+        else
+        {
+            System.out.println("BASE URL:"+BASE_URL );
+            webDriver.get(BASE_URL);
         }
 
         waitForPageToLoad(((ChannelsWebPage) page).getPageLoadSuccessElement());

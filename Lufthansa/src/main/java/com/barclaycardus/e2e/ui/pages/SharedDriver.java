@@ -8,6 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -41,7 +42,7 @@ public class SharedDriver extends EventFiringWebDriver {
     @Override
     public void close() {
         if (Thread.currentThread() != CLOSE_THREAD) {
-            throw new UnsupportedOperationException("You should nt close thiswebdriver.It is shared and will" + "close when JVM exists");
+            throw new UnsupportedOperationException("You should nt close this webdriver.It is shared and will" + "close when JVM exists");
         }
         super.close();
     }
@@ -64,7 +65,13 @@ public class SharedDriver extends EventFiringWebDriver {
     private static WebDriver getRealDriver() {
         if (System.getProperties().getProperty("os.name").toLowerCase().contains("windows")) {
             System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
-            return new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("-incognito");
+            options.addArguments("start-maximized");
+            options.addArguments("disable-infobars");
+            DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+            capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+            return new ChromeDriver(capabilities);
         } else if (System.getProperties().getProperty("os.name").toLowerCase().contains("mac")) {
             return new ChromeDriver();
         } else {
