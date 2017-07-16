@@ -17,7 +17,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class ApplySteps extends ConsumerLendingSteps
         {
 
-
     @Given("^a (.*?) applies for consumer Loan$")
     public void a_AUTODECLINE_ACTOR_applies_for_consumer_Loan(String applicantType) throws Throwable {
         // Write code here that turns the phrase above into concrete actions

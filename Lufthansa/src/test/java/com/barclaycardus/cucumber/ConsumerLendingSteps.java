@@ -1,7 +1,9 @@
 package com.barclaycardus.cucumber;
 import com.barclaycardus.domain.HelperFactory;
 import com.barclaycardus.domain.interfaces.Apply;
+import com.barclaycardus.domain.interfaces.ShoppingCart;
 import com.barclaycardus.e2e.builders.LoanApplicantBuilder;
+import com.barclaycardus.e2e.builders.ShoppingCartApplicantBuilder;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.IntegrationTest;
@@ -23,10 +25,20 @@ public abstract class ConsumerLendingSteps {
     protected LoanApplicantBuilder applicantBuilder;//=new LoanApplicantBuilder();
 
     @Autowired
+    protected ShoppingCartApplicantBuilder shopingcartapplicantBuilder;//=new LoanApplicantBuilder();
+
+    @Autowired
     HelperFactory helperFactory;
 
     public Apply getApplyHelper()
     {
         return helperFactory.getApplyHelper();
     }
+
+    public ShoppingCart getShoppingCartHelper()
+    {
+        return helperFactory.getShoppingCartHelper();
+    }
+
+
 }

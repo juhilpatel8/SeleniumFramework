@@ -1,6 +1,7 @@
 package com.barclaycardus.domain;
 
 import com.barclaycardus.domain.interfaces.Apply;
+import com.barclaycardus.domain.interfaces.ShoppingCart;
 import com.barclaycardus.domain.ui.helpers.ApplyUIHelper;
 import com.barclaycardus.e2e.utils.CucumberUtils;
 import com.barclaycardus.e2e.utils.JourneyEnum;
@@ -26,6 +27,15 @@ public class HelperFactory {
     @Qualifier(value = "applyUIHelper")
     Apply applyUIHelper;
 
+
+    @Autowired
+    @Qualifier(value = "shoppingCartAPIHelper")
+    ShoppingCart shoppingCartAPIHelper;
+
+    @Autowired
+    @Qualifier(value = "shoppingCartUIHelper")
+    ShoppingCart shoppingCartUIHelper;
+
     private HelperFactory()
     {
 
@@ -49,4 +59,26 @@ public class HelperFactory {
             return null;
         }
     }
+    public ShoppingCart getShoppingCartHelper()
+    {
+        System.out.println("Journey:"+CucumberUtils.getJourneyType());
+        if(JourneyEnum.API.name().equalsIgnoreCase(CucumberUtils.getJourneyType()))
+        {
+            return shoppingCartUIHelper;
+        }
+        else if(JourneyEnum.USER.name().equalsIgnoreCase(CucumberUtils.getJourneyType()))
+        {
+            return shoppingCartUIHelper;
+            //  return new ApplyUIHelper();
+        }
+        else
+        {
+            Assert.fail("Invalid JourneyType");
+            return null;
+        }
+    }
+
+
+
+
 }

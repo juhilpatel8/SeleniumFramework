@@ -1,3 +1,4 @@
 com\barclaycardus\cucumber\RunCukesTest.class
 com\barclaycardus\cucumber\steps\ApplySteps.class
 com\barclaycardus\cucumber\ConsumerLendingSteps.class
+com\barclaycardus\cucumber\steps\ShoppingSteps.class
