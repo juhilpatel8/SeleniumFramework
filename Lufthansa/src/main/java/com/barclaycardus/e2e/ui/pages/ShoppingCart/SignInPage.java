@@ -10,8 +10,10 @@ import org.openqa.selenium.support.How;
  */
 public class SignInPage extends ChannelsWebPage<SignInPage> {
 
-//    @FindBy(xpath = "//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a")
-    @FindBy(how = How.PARTIAL_LINK_TEXT, using ="Sign in" )
+//    @FindBy(xpath = "//*[@id='header']/div[2]/div/div/nav/div[1]/a")
+
+    @FindBy(xpath = "//*[@id='contact-link']/a")
+
     private WebElement SignInLink;
 
     //*[@id="global-header"]/ul/li[5]/div/input

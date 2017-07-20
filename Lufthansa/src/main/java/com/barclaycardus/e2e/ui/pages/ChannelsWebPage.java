@@ -51,6 +51,7 @@ public abstract class ChannelsWebPage<T> {
         }
 
         waitForPageToLoad(((ChannelsWebPage) page).getPageLoadSuccessElement());
+        System.out.println("Waiting successsfully");
         return page;
     }
 

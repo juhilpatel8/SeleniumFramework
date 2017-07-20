@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.barclaycardus.cucumber.RunCukesTest" time="0.062" tests="16" errors="2" skipped="4" failures="0">
+<testsuite name="com.barclaycardus.cucumber.RunCukesTest" time="0.046" tests="16" errors="2" skipped="4" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
@@ -63,34 +63,34 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given a AUTODECLINE_ACTOR applies for consumer Loan" classname="Scenario: Auto Decline actor-Loan Declined" time="0"/>
+  <testcase name="Given a AUTODECLINE_ACTOR applies for consumer Loan" classname="Scenario: Auto Decline actor-Loan Declined" time="0.004"/>
   <testcase name="When he logs into the application tracker" classname="Scenario: Auto Decline actor-Loan Declined" time="0"/>
   <testcase name="Then his loan application status should be DECLINED" classname="Scenario: Auto Decline actor-Loan Declined" time="0"/>
-  <testcase name="Scenario: Auto Decline actor-Loan Declined" classname="Scenario: Auto Decline actor-Loan Declined" time="0"/>
+  <testcase name="Scenario: Auto Decline actor-Loan Declined" classname="Scenario: Auto Decline actor-Loan Declined" time="0.002"/>
   <testcase name="Given I go to &quot;loginURL&quot; on &quot;Mozilla&quot;" classname="Scenario: Logging in salesforce" time="0"/>
   <testcase name="And I enter &quot;loginusername&quot; as &quot;sayem4@gmail.com&quot;" classname="Scenario: Logging in salesforce" time="0"/>
   <testcase name="And I enter &quot;lognpassword&quot; as &quot;sami3092&quot;" classname="Scenario: Logging in salesforce" time="0"/>
   <testcase name="And I click on &quot;loginbutton&quot;" classname="Scenario: Logging in salesforce" time="0"/>
   <testcase name="Then Login should be &quot;success&quot;" classname="Scenario: Logging in salesforce" time="0"/>
   <testcase name="Scenario: Logging in salesforce" classname="Scenario: Logging in salesforce" time="0"/>
-  <testcase name="Given &quot;POSITIVE_ACTOR&quot; go to &quot;http://automationpractice.com/index.php&quot; on &quot;Chrome&quot;" classname="Scenario: Sign up" time="0.031">
-    <error message="Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@439e3cb4&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;juhil-pc&apos;, ip: &apos;192.168.0.14&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@439e3cb4
+  <testcase name="Given &quot;POSITIVE_ACTOR&quot; go to &quot;http://automationpractice.com/index.php&quot; on &quot;Chrome&quot;" classname="Scenario: Sign up" time="0.019">
+    <error message="Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@24386839&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;juhil-pc&apos;, ip: &apos;192.168.0.14&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@24386839
 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
 System info: host: 'juhil-pc', ip: '192.168.0.14', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:59)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:60)
 	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:53)
-	at com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:20)
-	at com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:29)
+	at com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:22)
+	at com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:30)
 	at com.barclaycardus.cucumber.steps.ShoppingSteps.go_to_on(ShoppingSteps.java:28)
 	at ✽.Given "POSITIVE_ACTOR" go to "http://automationpractice.com/index.php" on "Chrome"(features/Shopping.feature:12)
 </error>
-    <system-out><![CDATA[2017-07-16 14:44:58.237  INFO 13488 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
-2017-07-16 14:44:58.253  INFO 13488 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
-2017-07-16 14:44:58.253  INFO 13488 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.boot.test.IntegrationTestPropertiesListener@6fd12c5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1de0a46c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d1f1ff5]
-2017-07-16 14:44:58.253  INFO 13488 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@38fc5554] to [cucumber.runtime.java.spring.GlueCodeScope@222afc67]
+    <system-out><![CDATA[2017-07-16 21:54:23.705  INFO 18400 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2017-07-16 21:54:23.707  INFO 18400 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2017-07-16 21:54:23.707  INFO 18400 --- [           main] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.boot.test.IntegrationTestPropertiesListener@6fd12c5, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1de0a46c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d1f1ff5]
+2017-07-16 21:54:23.708  INFO 18400 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Replacing scope 'cucumber-glue' from [cucumber.runtime.java.spring.GlueCodeScope@38fc5554] to [cucumber.runtime.java.spring.GlueCodeScope@222afc67]
 
   Scenario: Logging in salesforce                     &amp#27;[90m# features/Shopping.feature:3&amp#27;[0m
     &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI go to "&amp#27;[0m&amp#27;[32m&amp#27;[1mloginURL&amp#27;[0m&amp#27;[32m" on "&amp#27;[0m&amp#27;[32m&amp#27;[1mMozilla&amp#27;[0m&amp#27;[32m"&amp#27;[0m             &amp#27;[90m# ShoppingSteps.i_go_to_on(String,String)&amp#27;[0m
@@ -101,26 +101,26 @@ Driver info: driver.version: unknown
 key:API
 Journey:API
 key:API
-Email id  ::username361@gmail.com
+Email id  ::username220@gmail.com
 URL trying ro hit :http://automationpractice.com/index.php
 BASE URL:http://automationpractice.com/index.php
 Able to loan element successfully
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 11651
+    <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 19874
 Only local connections are allowed.
 ]]></system-err>
   </testcase>
-  <testcase name="Scenario: Sign up" classname="Scenario: Sign up" time="0.031">
-    <error message="Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@439e3cb4&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;juhil-pc&apos;, ip: &apos;192.168.0.14&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@439e3cb4
+  <testcase name="Scenario: Sign up" classname="Scenario: Sign up" time="0.021">
+    <error message="Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@24386839&#10;Build info: version: &apos;2.46.0&apos;, revision: &apos;61506a4624b13675f24581e453592342b7485d71&apos;, time: &apos;2015-06-04 10:22:50&apos;&#10;System info: host: &apos;juhil-pc&apos;, ip: &apos;192.168.0.14&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@24386839
 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
 System info: host: 'juhil-pc', ip: '192.168.0.14', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:59)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:60)
 	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:53)
-	at com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:20)
-	at com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:29)
+	at com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:22)
+	at com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:30)
 	at com.barclaycardus.cucumber.steps.ShoppingSteps.go_to_on(ShoppingSteps.java:28)
 	at ✽.Given "POSITIVE_ACTOR" go to "http://automationpractice.com/index.php" on "Chrome"(features/Shopping.feature:12)
 </error>

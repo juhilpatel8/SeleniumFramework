@@ -26,6 +26,7 @@ public class ShoppingCartUIHelper  implements ShoppingCart{
         shopingCartApplicant.setEmailAddress(emailId);
         System.out.println("Email id  ::"+emailId);
 
+        Thread.sleep(3000);
         SignInPage signInPage=new SignInPage().init();
         signInPage.SignInPage();
 

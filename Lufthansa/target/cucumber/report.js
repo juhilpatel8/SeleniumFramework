@@ -39,21 +39,21 @@ formatter.match({
   "location": "ApplySteps.a_AUTODECLINE_ACTOR_applies_for_consumer_Loan(String)"
 });
 formatter.result({
-  "duration": 355534172,
+  "duration": 174363810,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplySteps.he_logs_into_the_application_tracker()"
 });
 formatter.result({
-  "duration": 141981,
+  "duration": 74840,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplySteps.his_loan_application_status_should_be_DECLINED()"
 });
 formatter.result({
-  "duration": 108196,
+  "duration": 52173,
   "status": "passed"
 });
 formatter.uri("features/Shopping.feature");
@@ -111,7 +111,7 @@ formatter.match({
   "location": "ShoppingSteps.i_go_to_on(String,String)"
 });
 formatter.result({
-  "duration": 15367345,
+  "duration": 8203701,
   "status": "passed"
 });
 formatter.match({
@@ -128,7 +128,7 @@ formatter.match({
   "location": "ShoppingSteps.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 263862,
+  "duration": 110334,
   "status": "passed"
 });
 formatter.match({
@@ -145,7 +145,7 @@ formatter.match({
   "location": "ShoppingSteps.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 1506201,
+  "duration": 127868,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "ShoppingSteps.i_click_on(String)"
 });
 formatter.result({
-  "duration": 231362,
+  "duration": 118033,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "ShoppingSteps.login_should_be(String)"
 });
 formatter.result({
-  "duration": 205702,
+  "duration": 91946,
   "status": "passed"
 });
 formatter.scenario({
@@ -231,8 +231,8 @@ formatter.match({
   "location": "ShoppingSteps.go_to_on(String,String,String)"
 });
 formatter.result({
-  "duration": 39587935005,
-  "error_message": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@439e3cb4\nBuild info: version: \u00272.46.0\u0027, revision: \u002761506a4624b13675f24581e453592342b7485d71\u0027, time: \u00272015-06-04 10:22:50\u0027\nSystem info: host: \u0027juhil-pc\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)\r\n\tat com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:59)\r\n\tat com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:53)\r\n\tat com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:20)\r\n\tat com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:29)\r\n\tat com.barclaycardus.cucumber.steps.ShoppingSteps.go_to_on(ShoppingSteps.java:28)\r\n\tat ✽.Given \"POSITIVE_ACTOR\" go to \"http://automationpractice.com/index.php\" on \"Chrome\"(features/Shopping.feature:12)\r\n",
+  "duration": 42826065984,
+  "error_message": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@24386839\nBuild info: version: \u00272.46.0\u0027, revision: \u002761506a4624b13675f24581e453592342b7485d71\u0027, time: \u00272015-06-04 10:22:50\u0027\nSystem info: host: \u0027juhil-pc\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)\r\n\tat com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:60)\r\n\tat com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:53)\r\n\tat com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:22)\r\n\tat com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:30)\r\n\tat com.barclaycardus.cucumber.steps.ShoppingSteps.go_to_on(ShoppingSteps.java:28)\r\n\tat ✽.Given \"POSITIVE_ACTOR\" go to \"http://automationpractice.com/index.php\" on \"Chrome\"(features/Shopping.feature:12)\r\n",
   "status": "failed"
 });
 formatter.match({

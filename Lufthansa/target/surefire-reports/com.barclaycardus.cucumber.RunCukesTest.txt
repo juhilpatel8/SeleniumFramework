@@ -1,32 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: com.barclaycardus.cucumber.RunCukesTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 0, Errors: 2, Skipped: 4, Time elapsed: 50.289 sec <<< FAILURE! - in com.barclaycardus.cucumber.RunCukesTest
-Given "POSITIVE_ACTOR" go to "http://automationpractice.com/index.php" on "Chrome"(Scenario: Sign up)  Time elapsed: 0.031 sec  <<< ERROR!
-org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@439e3cb4
+Tests run: 16, Failures: 0, Errors: 2, Skipped: 4, Time elapsed: 46.883 sec <<< FAILURE! - in com.barclaycardus.cucumber.RunCukesTest
+Given "POSITIVE_ACTOR" go to "http://automationpractice.com/index.php" on "Chrome"(Scenario: Sign up)  Time elapsed: 0.019 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@24386839
 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
 System info: host: 'juhil-pc', ip: '192.168.0.14', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:59)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:60)
 	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:53)
-	at com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:20)
-	at com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:29)
+	at com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:22)
+	at com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:30)
 	at com.barclaycardus.cucumber.steps.ShoppingSteps.go_to_on(ShoppingSteps.java:28)
 	at ?.Given "POSITIVE_ACTOR" go to "http://automationpractice.com/index.php" on "Chrome"(features/Shopping.feature:12)
 
-Scenario: Sign up  Time elapsed: 0.031 sec  <<< ERROR!
-org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@439e3cb4
+Scenario: Sign up  Time elapsed: 0.021 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@24386839
 Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
 System info: host: 'juhil-pc', ip: '192.168.0.14', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:59)
+	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:60)
 	at com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:53)
-	at com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:20)
-	at com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:29)
+	at com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:22)
+	at com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:30)
 	at com.barclaycardus.cucumber.steps.ShoppingSteps.go_to_on(ShoppingSteps.java:28)
 	at ?.Given "POSITIVE_ACTOR" go to "http://automationpractice.com/index.php" on "Chrome"(features/Shopping.feature:12)
 
