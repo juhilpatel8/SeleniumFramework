@@ -90,14 +90,16 @@ public class FillUpCreateAnAccountPage extends ChannelsWebPage<FillUpCreateAnAcc
 
     @Override
     protected String getPageLoadSuccessElement() {
-        return "SignInLink";
+        return "submitAccount";
     }
 
     public void fillUpCreateAnAccountPage(ShopingCartApplicant shopingCartApplicant) {
         // ApplyButton.click();
         // return new LoanApplicationPge().init();
-        Select selectSuffix= new Select(titleId);
-        selectSuffix.selectByIndex(2);
+//        Select selectSuffix= new Select(titleId);
+//        selectSuffix.selectByIndex(2);
+
+        titleId.click();
 
         firstNameId.sendKeys(shopingCartApplicant.getFirstName());
         lastNameId.sendKeys(shopingCartApplicant.getLastName());

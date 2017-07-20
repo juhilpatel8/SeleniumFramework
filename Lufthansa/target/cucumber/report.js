@@ -39,21 +39,21 @@ formatter.match({
   "location": "ApplySteps.a_AUTODECLINE_ACTOR_applies_for_consumer_Loan(String)"
 });
 formatter.result({
-  "duration": 174363810,
+  "duration": 102192800,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplySteps.he_logs_into_the_application_tracker()"
 });
 formatter.result({
-  "duration": 74840,
+  "duration": 57306,
   "status": "passed"
 });
 formatter.match({
   "location": "ApplySteps.his_loan_application_status_should_be_DECLINED()"
 });
 formatter.result({
-  "duration": 52173,
+  "duration": 55595,
   "status": "passed"
 });
 formatter.uri("features/Shopping.feature");
@@ -111,7 +111,7 @@ formatter.match({
   "location": "ShoppingSteps.i_go_to_on(String,String)"
 });
 formatter.result({
-  "duration": 8203701,
+  "duration": 5659155,
   "status": "passed"
 });
 formatter.match({
@@ -128,7 +128,7 @@ formatter.match({
   "location": "ShoppingSteps.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 110334,
+  "duration": 112901,
   "status": "passed"
 });
 formatter.match({
@@ -145,7 +145,7 @@ formatter.match({
   "location": "ShoppingSteps.i_enter_as(String,String)"
 });
 formatter.result({
-  "duration": 127868,
+  "duration": 87669,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +158,7 @@ formatter.match({
   "location": "ShoppingSteps.i_click_on(String)"
 });
 formatter.result({
-  "duration": 118033,
+  "duration": 91946,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +171,7 @@ formatter.match({
   "location": "ShoppingSteps.login_should_be(String)"
 });
 formatter.result({
-  "duration": 91946,
+  "duration": 81682,
   "status": "passed"
 });
 formatter.scenario({
@@ -231,8 +231,8 @@ formatter.match({
   "location": "ShoppingSteps.go_to_on(String,String,String)"
 });
 formatter.result({
-  "duration": 42826065984,
-  "error_message": "org.openqa.selenium.TimeoutException: Timed out after 30 seconds waiting for com.barclaycardus.e2e.ui.pages.ChannelsWebPage$1@24386839\nBuild info: version: \u00272.46.0\u0027, revision: \u002761506a4624b13675f24581e453592342b7485d71\u0027, time: \u00272015-06-04 10:22:50\u0027\nSystem info: host: \u0027juhil-pc\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:260)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)\r\n\tat com.barclaycardus.e2e.ui.pages.ChannelsWebPage.waitForPageToLoad(ChannelsWebPage.java:60)\r\n\tat com.barclaycardus.e2e.ui.pages.ChannelsWebPage.openPage(ChannelsWebPage.java:53)\r\n\tat com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage.init(SignInPage.java:22)\r\n\tat com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:30)\r\n\tat com.barclaycardus.cucumber.steps.ShoppingSteps.go_to_on(ShoppingSteps.java:28)\r\n\tat ✽.Given \"POSITIVE_ACTOR\" go to \"http://automationpractice.com/index.php\" on \"Chrome\"(features/Shopping.feature:12)\r\n",
+  "duration": 44982980198,
+  "error_message": "org.openqa.selenium.WebDriverException: unknown error: keys should be a string\n  (Session info: chrome\u003d59.0.3071.115)\n  (Driver info: chromedriver\u003d2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform\u003dWindows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 51 milliseconds\nBuild info: version: \u00272.46.0\u0027, revision: \u002761506a4624b13675f24581e453592342b7485d71\u0027, time: \u00272015-06-04 10:22:50\u0027\nSystem info: host: \u0027juhil-pc\u0027, ip: \u0027192.168.0.14\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u00271.8.0_60\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities [{applicationCacheEnabled\u003dfalse, rotatable\u003dfalse, mobileEmulationEnabled\u003dfalse, networkConnectionEnabled\u003dfalse, chrome\u003d{chromedriverVersion\u003d2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir\u003dC:\\Users\\Juhil\\AppData\\Local\\Temp\\scoped_dir20520_10752}, takesHeapSnapshot\u003dtrue, pageLoadStrategy\u003dnormal, databaseEnabled\u003dfalse, handlesAlerts\u003dtrue, hasTouchScreen\u003dfalse, version\u003d59.0.3071.115, platform\u003dWIN8_1, browserConnectionEnabled\u003dfalse, nativeEvents\u003dtrue, acceptSslCerts\u003dtrue, locationContextEnabled\u003dtrue, webStorageEnabled\u003dtrue, browserName\u003dchrome, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue, unexpectedAlertBehaviour\u003d}]\nSession ID: a9fb73f0853483618a1d20e86c3d1824\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:422)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:90)\r\n\tat sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:332)\r\n\tat com.sun.proxy.$Proxy51.sendKeys(Unknown Source)\r\n\tat org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.sendKeys(EventFiringWebDriver.java:355)\r\n\tat sun.reflect.GeneratedMethodAccessor15.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:497)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy50.sendKeys(Unknown Source)\r\n\tat com.barclaycardus.e2e.ui.pages.ShoppingCart.FillUpCreateAnAccountPage.fillUpCreateAnAccountPage(FillUpCreateAnAccountPage.java:127)\r\n\tat com.barclaycardus.domain.ui.helpers.ShoppingCartUIHelper.submitASignUpApplication(ShoppingCartUIHelper.java:35)\r\n\tat com.barclaycardus.cucumber.steps.ShoppingSteps.go_to_on(ShoppingSteps.java:28)\r\n\tat ✽.Given \"POSITIVE_ACTOR\" go to \"http://automationpractice.com/index.php\" on \"Chrome\"(features/Shopping.feature:12)\r\n",
   "status": "failed"
 });
 formatter.match({

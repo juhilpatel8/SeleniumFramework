@@ -44,11 +44,11 @@ public abstract class ChannelsWebPage<T> {
             System.out.println("BASE URL:"+BASE_URL );
             webDriver.get(BASE_URL + getPageUrl());
         }
-        else
-        {
-            System.out.println("BASE URL:"+BASE_URL );
-            webDriver.get(BASE_URL);
-        }
+//        else
+//        {
+//            System.out.println("BASE URL:"+BASE_URL );
+//            webDriver.get(BASE_URL);
+//        }
 
         waitForPageToLoad(((ChannelsWebPage) page).getPageLoadSuccessElement());
         System.out.println("Waiting successsfully");
@@ -56,8 +56,15 @@ public abstract class ChannelsWebPage<T> {
     }
 
     private void waitForPageToLoad(String element) {
-        Wait wait = new FluentWait(webDriver).withTimeout(LOAD_TIMEOUT, TimeUnit.SECONDS).pollingEvery(REFRESH_RATE, TimeUnit.SECONDS);
-        wait.until(isElementPresentJS(element));
+        try {
+            System.out.println("Wait for page to load" + element);
+            Wait wait = new FluentWait(webDriver).withTimeout(LOAD_TIMEOUT, TimeUnit.SECONDS).pollingEvery(REFRESH_RATE, TimeUnit.SECONDS);
+            wait.until(isElementPresentJS(element));
+        }
+        catch(Exception ee)
+        {
+            ee.getStackTrace();
+        }
     }
 
     private ExpectedCondition isElementPresentJS(final String element) {

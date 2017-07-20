@@ -12,8 +12,10 @@ public class SignInPage extends ChannelsWebPage<SignInPage> {
 
 //    @FindBy(xpath = "//*[@id='header']/div[2]/div/div/nav/div[1]/a")
 
-    @FindBy(xpath = "//*[@id='contact-link']/a")
+    // originl xpath=  "//*[@id='contact-link']/a"
+  //how to write in Framework  @FindBy(xpath = "//*[@id=\"contact-link\"]/a")
 
+    @FindBy(xpath = "//*[@id=\"header\"]/div[2]/div/div/nav/div[1]/a")
     private WebElement SignInLink;
 
     //*[@id="global-header"]/ul/li[5]/div/input
@@ -22,21 +24,21 @@ public class SignInPage extends ChannelsWebPage<SignInPage> {
         return openPage(SignInPage.class);
     }
 
+    //First page url can not be null ; so please add something here
     @Override
     protected String getPageUrl() {
-        return null;
+        return "index.php";
     }
 
     @Override
     protected String getPageLoadSuccessElement() {
-        System.out.println("Able to loan element successfully");
+        System.out.println("Able to load element successfully");
         return "SignInLink";
     }
 
-    public void SignInPage() {
-        // ApplyButton.click();
-        // return new LoanApplicationPge().init();
+    public CreateAnAccountPage SignInPage() throws Throwable{
         System.out.println("Link Text:"+SignInLink.getText());
         SignInLink.click();
+        return new CreateAnAccountPage().init();
     }
 }

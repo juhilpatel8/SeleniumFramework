@@ -12,7 +12,7 @@ public class ShopingCartApplicant {
     private String firstName="JUHIL";
     private String lastName="ITQA";
     private String emailAddress=null;
-    private String password=null;
+    private String password="S288jhaj";
 
     private String addressFirstName="JUHIL";
     private String addressLastName="ITQA";

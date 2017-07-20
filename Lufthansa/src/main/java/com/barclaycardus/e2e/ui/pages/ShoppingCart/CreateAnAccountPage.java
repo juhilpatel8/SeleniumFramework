@@ -28,14 +28,17 @@ public class CreateAnAccountPage extends ChannelsWebPage<CreateAnAccountPage> {
 
     @Override
     protected String getPageLoadSuccessElement() {
-        return "SignInLink";
+        return "email_create";
     }
 
-    public FillUpCreateAnAccountPage CreateAnAccountPage(String emailAddress) {
+    public void CreateAnAccountPage(String emailAddress) throws Throwable {
         // ApplyButton.click();
         // return new LoanApplicationPge().init();
+        Thread.sleep(2000);
+        waitForVisibilityOfElementById("SubmitCreate");
+        System.out.println("email id ::"+ emailAddress);
         emailId.sendKeys(emailAddress);
         createAnAccountButton.click();
-        return new FillUpCreateAnAccountPage().init();
+//        return new FillUpCreateAnAccountPage().init();
     }
 }

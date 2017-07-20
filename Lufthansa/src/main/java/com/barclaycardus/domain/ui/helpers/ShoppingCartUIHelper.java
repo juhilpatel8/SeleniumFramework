@@ -25,12 +25,10 @@ public class ShoppingCartUIHelper  implements ShoppingCart{
         String emailId =loanApplicationViewHelper.getEmailId();
         shopingCartApplicant.setEmailAddress(emailId);
         System.out.println("Email id  ::"+emailId);
-
-        Thread.sleep(3000);
         SignInPage signInPage=new SignInPage().init();
-        signInPage.SignInPage();
+        CreateAnAccountPage createAnAccountPage=signInPage.SignInPage();
 
-        CreateAnAccountPage createAnAccountPage=new CreateAnAccountPage().init();
+//        CreateAnAccountPage createAnAccountPage=new CreateAnAccountPage().init();
         createAnAccountPage.CreateAnAccountPage(shopingCartApplicant.getEmailAddress());
 
         FillUpCreateAnAccountPage fillUpCreateAnAccountPage=new FillUpCreateAnAccountPage().init();
