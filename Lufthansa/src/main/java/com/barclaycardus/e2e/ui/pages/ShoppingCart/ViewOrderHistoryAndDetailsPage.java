@@ -13,6 +13,10 @@ public class ViewOrderHistoryAndDetailsPage extends ChannelsWebPage<ViewOrderHis
     @FindBy(xpath = "//span[text()='Order history and details']")
     private WebElement orderHistoryAndDetails;
 
+    @FindBy(xpath = "//*[@id=\"center_column\"]/div/div[1]/ul/li[1]/a")
+    private WebElement orderHistoryAndDetailsHyperLink;
+
+
     //*[@id="global-header"]/ul/li[5]/div/input
 //*[@id="global-header"]/ul/li[5]/div/input
     public ViewOrderHistoryAndDetailsPage init() {
@@ -33,5 +37,7 @@ public class ViewOrderHistoryAndDetailsPage extends ChannelsWebPage<ViewOrderHis
 
         waitForVisibilityOfElementByXpath("//span[text()='Order history and details']");
         System.out.println("Completed Journey Successfully");
+        orderHistoryAndDetailsHyperLink.click();
+
     }
 }

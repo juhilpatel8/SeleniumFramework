@@ -15,4 +15,5 @@ public interface ShoppingCart {
 
      void submitViewOrderHistoryAndDetails(ShoppingCartApplicantBuilder shopingcartapplicantBuilder)throws Throwable;
 
+     void verifyOrderHistory(ShoppingCartApplicantBuilder shopingcartapplicantBuilder)throws Throwable;
 }

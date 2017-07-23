@@ -11,6 +11,7 @@ com\barclaycardus\domain\abstracts\AbstractsApplyApiHelper.class
 com\barclaycardus\e2e\utils\CobaltTestUtils.class
 com\barclaycardus\domain\api\helpers\ApplyAPIHelper.class
 com\barclaycardus\e2e\ui\pages\LoanApplicationPge.class
+com\barclaycardus\e2e\ui\pages\ShoppingCart\VerifyOrderHistoryPage.class
 com\barclaycardus\e2e\utils\EnviornmentEnum.class
 com\barclaycardus\domain\api\helpers\ShoppingCartAPIHelper.class
 com\barclaycardus\cucumber\configuration\ConditionalOnProperty.class

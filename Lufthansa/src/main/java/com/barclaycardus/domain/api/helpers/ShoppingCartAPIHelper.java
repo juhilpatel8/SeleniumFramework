@@ -32,4 +32,9 @@ public class ShoppingCartAPIHelper extends AbstractsShoppingCartApiHelper{
     public void submitViewOrderHistoryAndDetails(ShoppingCartApplicantBuilder shopingcartapplicantBuilder) throws Throwable {
 
     }
+
+    @Override
+    public void verifyOrderHistory(ShoppingCartApplicantBuilder shopingcartapplicantBuilder) throws Throwable {
+
+    }
 }

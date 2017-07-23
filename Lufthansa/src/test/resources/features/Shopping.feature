@@ -13,6 +13,7 @@ Feature: Shopping Website
    When I enter "email id" as "juhilpatel8@gmail.com" then click on "create an account" button
    And Enter personal information and click on submit button
    Then I can view ORDER HISTORY And DETAILS button
+   And click on HyperLink to verify order history
 
 #  @smoke
 #  Scenario: Sign up with table

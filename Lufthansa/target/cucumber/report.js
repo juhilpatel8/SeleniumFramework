@@ -66,6 +66,11 @@ formatter.step({
   "name": "I can view ORDER HISTORY And DETAILS button",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 16,
+  "name": "click on HyperLink to verify order history",
+  "keyword": "And "
+});
 formatter.match({
   "arguments": [
     {
@@ -84,7 +89,7 @@ formatter.match({
   "location": "ShoppingSteps.go_to_And_I_click_on_section(String,String,String)"
 });
 formatter.result({
-  "duration": 38158866051,
+  "duration": 37643844931,
   "status": "passed"
 });
 formatter.match({
@@ -105,21 +110,28 @@ formatter.match({
   "location": "ShoppingSteps.i_enter_as_then_click_on_button(String,String,String)"
 });
 formatter.result({
-  "duration": 2368894870,
+  "duration": 2793181576,
   "status": "passed"
 });
 formatter.match({
   "location": "ShoppingSteps.enter_personal_information_and_click_on_submit_button()"
 });
 formatter.result({
-  "duration": 10585234575,
+  "duration": 6692187324,
   "status": "passed"
 });
 formatter.match({
   "location": "ShoppingSteps.i_can_view_ORDER_HISTORY_And_DETAILS_button()"
 });
 formatter.result({
-  "duration": 62665796,
+  "duration": 755871791,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ShoppingSteps.clickOnHyperLinkToVerifyOrderHistory()"
+});
+formatter.result({
+  "duration": 99165605,
   "status": "passed"
 });
 });

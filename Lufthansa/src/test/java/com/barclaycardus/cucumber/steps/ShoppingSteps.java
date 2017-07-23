@@ -97,4 +97,10 @@ public class ShoppingSteps extends ConsumerLendingSteps {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
     }
+
+    @And("^click on HyperLink to verify order history$")
+    public void clickOnHyperLinkToVerifyOrderHistory() throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        getShoppingCartHelper().verifyOrderHistory(shopingcartapplicantBuilder);
+    }
 }
