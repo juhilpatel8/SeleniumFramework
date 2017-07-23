@@ -23,6 +23,7 @@ com\barclaycardus\domain\abstracts\AbstractsShoppingCartApiHelper.class
 com\barclaycardus\domain\interfaces\ShoppingCart.class
 com\barclaycardus\domain\ui\helpers\ApplyUIHelper.class
 com\barclaycardus\domain\interfaces\Apply.class
+com\barclaycardus\e2e\ui\pages\ShoppingCart\ViewOrderHistoryAndDetailsPage.class
 com\barclaycardus\cucumber\configuration\UIFrameworkConfig.class
 com\barclaycardus\cucumber\Application.class
 com\barclaycardus\domain\ui\helpers\ShoppingCartUIHelper.class

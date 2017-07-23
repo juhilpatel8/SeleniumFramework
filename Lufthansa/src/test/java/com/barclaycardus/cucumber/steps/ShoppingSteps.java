@@ -69,6 +69,7 @@ public class ShoppingSteps extends ConsumerLendingSteps {
     @Then("^I can view ORDER HISTORY And DETAILS button$")
     public void i_can_view_ORDER_HISTORY_And_DETAILS_button() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
+        getShoppingCartHelper().submitViewOrderHistoryAndDetails(shopingcartapplicantBuilder);
 
     }
 

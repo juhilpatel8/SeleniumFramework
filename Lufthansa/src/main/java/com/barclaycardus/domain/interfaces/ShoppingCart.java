@@ -12,4 +12,7 @@ public interface ShoppingCart {
      void clickOnCreateAnAccount(ShoppingCartApplicantBuilder shopingcartapplicantBuilder)throws Throwable;
 
      void submitPersonalInformation(ShoppingCartApplicantBuilder shopingcartapplicantBuilder)throws Throwable;
+
+     void submitViewOrderHistoryAndDetails(ShoppingCartApplicantBuilder shopingcartapplicantBuilder)throws Throwable;
+
 }

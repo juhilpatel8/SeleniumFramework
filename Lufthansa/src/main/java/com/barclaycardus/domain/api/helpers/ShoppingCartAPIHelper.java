@@ -27,4 +27,9 @@ public class ShoppingCartAPIHelper extends AbstractsShoppingCartApiHelper{
     public void submitPersonalInformation(ShoppingCartApplicantBuilder shopingcartapplicantBuilder) throws Throwable {
 
     }
+
+    @Override
+    public void submitViewOrderHistoryAndDetails(ShoppingCartApplicantBuilder shopingcartapplicantBuilder) throws Throwable {
+
+    }
 }

@@ -7,6 +7,7 @@ import com.barclaycardus.e2e.builders.ShoppingCartApplicantBuilder;
 import com.barclaycardus.e2e.ui.pages.ShoppingCart.CreateAnAccountPage;
 import com.barclaycardus.e2e.ui.pages.ShoppingCart.FillUpCreateAnAccountPage;
 import com.barclaycardus.e2e.ui.pages.ShoppingCart.SignInPage;
+import com.barclaycardus.e2e.ui.pages.ShoppingCart.ViewOrderHistoryAndDetailsPage;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -59,6 +60,13 @@ public class ShoppingCartUIHelper implements ShoppingCart{
         System.out.println("Step Submit Account Information::"+"First Name::"+shopingcartapplicantBuilder.getApplicant().getFirstName()+"Last Name::"+shopingcartapplicantBuilder.getApplicant().getLastName()+"Email Id::"+shopingcartapplicantBuilder.getApplicant().getEmailAddress()+"Password::"+shopingcartapplicantBuilder.getApplicant().getPassword()+"Address Mobile Phone"+shopingcartapplicantBuilder.getApplicant().getAddressMobilePhone());
         FillUpCreateAnAccountPage fillUpCreateAnAccountPage=new FillUpCreateAnAccountPage().init();
         fillUpCreateAnAccountPage.fillUpCreateAnAccountPage(shopingcartapplicantBuilder.getApplicant());
+    }
+
+    @Override
+    public void submitViewOrderHistoryAndDetails(ShoppingCartApplicantBuilder shopingcartapplicantBuilder) throws Throwable {
+        System.out.println("Step 4 : Inspect Order History And Details");
+        ViewOrderHistoryAndDetailsPage viewOrderHistoryAndDetailsPage=new ViewOrderHistoryAndDetailsPage().init();
+        viewOrderHistoryAndDetailsPage.viewOrderHistoryAndDetailsPage(shopingcartapplicantBuilder.getApplicant().getEmailAddress());
     }
 
 
