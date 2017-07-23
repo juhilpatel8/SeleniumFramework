@@ -13,8 +13,18 @@ import org.springframework.stereotype.Component;
 public class ShoppingCartAPIHelper extends AbstractsShoppingCartApiHelper{
 
     @Override
-    public void submitASignUpApplication(ShoppingCartApplicantBuilder shoppingCartApplicantBuilder) throws Throwable {
+    public void clickOnSignInSection(ShoppingCartApplicantBuilder shopingcartapplicantBuilder) throws Throwable {
         System.out.println("ShoppingCart API");
+
+    }
+
+    @Override
+    public void clickOnCreateAnAccount(ShoppingCartApplicantBuilder shopingcartapplicantBuilder) throws Throwable {
+
+    }
+
+    @Override
+    public void submitPersonalInformation(ShoppingCartApplicantBuilder shopingcartapplicantBuilder) throws Throwable {
 
     }
 }

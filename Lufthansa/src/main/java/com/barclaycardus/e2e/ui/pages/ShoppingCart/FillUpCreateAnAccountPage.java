@@ -98,7 +98,7 @@ public class FillUpCreateAnAccountPage extends ChannelsWebPage<FillUpCreateAnAcc
         // return new LoanApplicationPge().init();
 //        Select selectSuffix= new Select(titleId);
 //        selectSuffix.selectByIndex(2);
-
+        emailId.clear();
         titleId.click();
 
         firstNameId.sendKeys(shopingCartApplicant.getFirstName());
@@ -112,6 +112,11 @@ public class FillUpCreateAnAccountPage extends ChannelsWebPage<FillUpCreateAnAcc
         selectDobMonths.selectByIndex(2);
         Select selectDobYears= new Select(dobYears);
         selectDobYears.selectByIndex(3);
+        /**
+         *
+         * Select selectResidentStatusId= new Select(residentStatusID);
+         * selectResidentStatusId.selectByVisibleText(applicant.getResidentStatus());
+         */
 
         addressFirstNameId.sendKeys(shopingCartApplicant.getAddressFirstName());
         addressLastNameId.sendKeys(shopingCartApplicant.getAddressLastName());

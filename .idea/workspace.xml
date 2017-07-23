@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6f6c52-cdb0-4e88-9893-3d3c753f03e9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/classes/com/barclaycardus/domain/api/helpers/ShoppingCartAPIHelper.class" afterPath="$PROJECT_DIR$/Lufthansa/target/classes/com/barclaycardus/domain/api/helpers/ShoppingCartAPIHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/classes/com/barclaycardus/domain/interfaces/ShoppingCart.class" afterPath="$PROJECT_DIR$/Lufthansa/target/classes/com/barclaycardus/domain/interfaces/ShoppingCart.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/classes/com/barclaycardus/domain/ui/helpers/ShoppingCartUIHelper.class" afterPath="$PROJECT_DIR$/Lufthansa/target/classes/com/barclaycardus/domain/ui/helpers/ShoppingCartUIHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/classes/com/barclaycardus/e2e/ui/pages/ShoppingCart/CreateAnAccountPage.class" afterPath="$PROJECT_DIR$/Lufthansa/target/classes/com/barclaycardus/e2e/ui/pages/ShoppingCart/CreateAnAccountPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/classes/com/barclaycardus/e2e/ui/pages/ShoppingCart/FillUpCreateAnAccountPage.class" afterPath="$PROJECT_DIR$/Lufthansa/target/classes/com/barclaycardus/e2e/ui/pages/ShoppingCart/FillUpCreateAnAccountPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/test-classes/com/barclaycardus/cucumber/steps/ShoppingSteps.class" afterPath="$PROJECT_DIR$/Lufthansa/target/test-classes/com/barclaycardus/cucumber/steps/ShoppingSteps.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/api/helpers/ShoppingCartAPIHelper.java" afterPath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/api/helpers/ShoppingCartAPIHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/interfaces/ShoppingCart.java" afterPath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/interfaces/ShoppingCart.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/ui/helpers/ShoppingCartUIHelper.java" afterPath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/ui/helpers/ShoppingCartUIHelper.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/builders/ShopingCartApplicant.java" afterPath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/builders/ShopingCartApplicant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ChannelsWebPage.java" afterPath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ChannelsWebPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/CreateAnAccountPage.java" afterPath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/CreateAnAccountPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/FillUpCreateAnAccountPage.java" afterPath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/FillUpCreateAnAccountPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/SignInPage.java" afterPath="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/SignInPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/main/resources/environments/production/env.properties" afterPath="$PROJECT_DIR$/Lufthansa/src/main/resources/environments/production/env.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/steps/ShoppingSteps.java" afterPath="$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/steps/ShoppingSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/src/test/resources/features/Shopping.feature" afterPath="$PROJECT_DIR$/Lufthansa/src/test/resources/features/Shopping.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/classes/config/application.properties" afterPath="$PROJECT_DIR$/Lufthansa/target/classes/config/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/cucumber/cucumber.json" afterPath="$PROJECT_DIR$/Lufthansa/target/cucumber/cucumber.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/cucumber/report.js" afterPath="$PROJECT_DIR$/Lufthansa/target/cucumber/report.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/surefire-reports/TEST-com.barclaycardus.cucumber.RunCukesTest.xml" afterPath="$PROJECT_DIR$/Lufthansa/target/surefire-reports/TEST-com.barclaycardus.cucumber.RunCukesTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/surefire-reports/com.barclaycardus.cucumber.RunCukesTest.txt" afterPath="$PROJECT_DIR$/Lufthansa/target/surefire-reports/com.barclaycardus.cucumber.RunCukesTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lufthansa/target/test-classes/features/Shopping.feature" afterPath="$PROJECT_DIR$/Lufthansa/target/test-classes/features/Shopping.feature" />
     </list>
     <ignored path="ConsumerLanding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +46,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Shopping.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lufthansa/src/test/resources/features/Shopping.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ShoppingCartUIHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/ui/helpers/ShoppingCartUIHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+            <state relative-caret-position="174">
+              <caret line="58" column="418" selection-start-line="58" selection-start-column="418" selection-end-line="58" selection-end-column="418" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,78 +68,81 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ShoppingSteps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/steps/ShoppingSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="93" column="57" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="40">
+                <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <js_state />
+              </second_editor>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="FillUpCreateAnAccountPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/FillUpCreateAnAccountPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
+            <state relative-caret-position="123">
+              <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShopingCartApplicant.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Shopping.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lufthansa/target/test-classes/features/Shopping.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CLApply.feature" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lufthansa/src/test/resources/features/CLApply.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShopingCartApplicant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/builders/ShopingCartApplicant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="-1195">
+              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
               <folding>
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1506#1507#0" expanded="true" />
+                <element signature="e#3797#3798#0" expanded="true" />
+                <element signature="e#3838#3839#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignInPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/SignInPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
-              <folding>
-                <element signature="e#767#768#0" expanded="true" />
-                <element signature="e#816#817#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CreateAnAccountPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/CreateAnAccountPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-153">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="env.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/resources/environments/production/env.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoanApplicationPge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/LoanApplicationPge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChannelsWebPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ChannelsWebPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -156,25 +183,27 @@
         <option value="$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/steps/ApplySteps.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/builders/ShopingCartApplicantType.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/builders/ShoppingCartApplicantBuilder.java" />
-        <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/interfaces/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/ConsumerLendingSteps.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/cucumber/configuration/UIFrameworkConfig.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/database/helpers/LoanApplicationViewHelper.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/abstracts/AbstractsShoppingCartApiHelper.java" />
-        <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/api/helpers/ShoppingCartAPIHelper.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/HelperFactory.java" />
-        <option value="$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/steps/ShoppingSteps.java" />
-        <option value="$PROJECT_DIR$/Lufthansa/src/test/resources/features/Shopping.feature" />
         <option value="$PROJECT_DIR$/Lufthansa/src/test/resources/features/CLApply.feature" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/SharedDriver.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/ui/helpers/ShoppingCartUIHelper.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ChannelsWebPage.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/resources/environments/production/env.properties" />
-        <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/CreateAnAccountPage.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/SignInPage.java" />
-        <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/FillUpCreateAnAccountPage.java" />
+        <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/CreateAnAccountPage.java" />
+        <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/api/helpers/ShoppingCartAPIHelper.java" />
+        <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/interfaces/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/ui/helpers/ShoppingCartUIHelper.java" />
         <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/builders/ShopingCartApplicant.java" />
+        <option value="$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/FillUpCreateAnAccountPage.java" />
+        <option value="$PROJECT_DIR$/Lufthansa/target/test-classes/features/Shopping.feature" />
+        <option value="$PROJECT_DIR$/Lufthansa/target/test-classes/features/ShoppingSteps.java" />
+        <option value="$PROJECT_DIR$/Lufthansa/src/test/resources/features/Shopping.feature" />
+        <option value="$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/steps/ShoppingSteps.java" />
       </list>
     </option>
   </component>
@@ -201,6 +230,20 @@
     <option name="y" value="1" />
     <option name="width" value="1364" />
     <option name="height" value="678" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Cucumber</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -709,7 +752,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
+              <option name="myItemId" value="interfaces" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -747,7 +790,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -881,9 +924,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -893,6 +936,8 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -990,6 +1035,25 @@
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1218,57 +1282,59 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123239435" sideWeight="0.50296736" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28440368" sideWeight="0.5122699" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28440368" sideWeight="0.48773006" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34718102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123239435" sideWeight="0.49703264" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45322084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13204226" sideWeight="0.48813057" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123239435" sideWeight="0.49703264" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28440368" sideWeight="0.5122699" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13204226" sideWeight="0.48813057" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28440368" sideWeight="0.48773006" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45322084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123239435" sideWeight="0.49703264" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1292,53 +1358,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lufthansa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3094">
-          <caret line="182" column="20" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/steps/ApplySteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/ui/helpers/ApplyUIHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1469995664600" expanded="false" signature="53:415" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/cucumber/configuration/ConditionalOnProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/cucumber/configuration/UIFrameworkConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.1.6.RELEASE/spring-beans-4.1.6.RELEASE.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/api/helpers/AbstractApiHelper.java" />
     <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/utils/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1371,14 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1001#1002#0" expanded="false" />
-            <element signature="e#1042#1043#0" expanded="false" />
-            <element signature="e#1108#1109#0" expanded="false" />
-            <element signature="e#1171#1172#0" expanded="false" />
-            <marker date="1470000302193" expanded="false" signature="48:68" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1458,9 +1469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <marker date="1469995664600" expanded="false" signature="53:415" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1475,7 +1483,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,7 +1490,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1491,13 +1497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/abstracts/AbstractsShoppingCartApiHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -1529,34 +1528,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/api/helpers/ShoppingCartAPIHelper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.46.0/selenium-support-2.46.0.jar!/org/openqa/selenium/support/ui/Wait.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="119">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/ui/helpers/CustomerUIHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/SharedDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/LoanApplicationPge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ChannelsWebPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/SignInPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/resources/environments/production/env.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/ConsumerLendingSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1352#1353#0" expanded="false" />
+            <element signature="e#1405#1406#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/builders/ShoppingCartApplicantBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+        <state relative-caret-position="544">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#632#633#0" expanded="false" />
+            <element signature="e#664#665#0" expanded="false" />
+            <element signature="e#728#729#0" expanded="false" />
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#864#865#0" expanded="false" />
+            <element signature="e#940#941#0" expanded="false" />
+            <element signature="e#990#991#0" expanded="false" />
+            <element signature="e#1036#1037#0" expanded="false" />
+            <element signature="e#1078#1079#0" expanded="false" />
+            <element signature="e#1148#1149#0" expanded="false" />
+            <element signature="e#1210#1211#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/test/resources/features/CLApply.feature">
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/CreateAnAccountPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="312">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/target/surefire-reports/com.barclaycardus.cucumber.RunCukesTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-996">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/target/surefire-reports/TEST-com.barclaycardus.cucumber.RunCukesTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2297">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/target/cucumber/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/target/cucumber/report.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/abstracts/AbstractsShoppingCartApiHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/api/helpers/ShoppingCartAPIHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -1564,14 +1669,45 @@
     <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/interfaces/ShoppingCart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/2.46.0/selenium-support-2.46.0.jar!/org/openqa/selenium/support/ui/Wait.class">
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/ui/helpers/ShoppingCartUIHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="174">
+          <caret line="58" column="418" selection-start-line="58" selection-start-column="418" selection-end-line="58" selection-end-column="418" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/builders/ShopingCartApplicant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1195">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="e#3797#3798#0" expanded="true" />
+            <element signature="e#3838#3839#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/FillUpCreateAnAccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/target/test-classes/features/ShoppingSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,16 +1721,10 @@
           <second_editor />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="116">
-            <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <first_editor relative-caret-position="40">
+            <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor>
@@ -1602,8 +1732,29 @@
           </second_editor>
         </state>
       </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/ui/helpers/CustomerUIHelper.java">
+    <entry file="file://$PROJECT_DIR$/Lufthansa/target/test-classes/features/Shopping.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/test/resources/features/CLApply.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lufthansa/target/test-classes/features/CLApply.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1611,100 +1762,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/steps/ShoppingSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="59" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/SharedDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="70" column="53" selection-start-line="70" selection-start-column="53" selection-end-line="70" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lufthansa/src/test/resources/features/Shopping.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="195">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/LoanApplicationPge.java">
+    <entry file="file://$PROJECT_DIR$/Lufthansa/src/test/java/com/barclaycardus/cucumber/steps/ShoppingSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ChannelsWebPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/resources/environments/production/env.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/SignInPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="26" column="67" selection-start-line="26" selection-start-column="67" selection-end-line="26" selection-end-column="67" />
-          <folding>
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#816#817#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/CreateAnAccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/domain/ui/helpers/ShoppingCartUIHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        <state relative-caret-position="379">
+          <caret line="93" column="57" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/ui/pages/ShoppingCart/FillUpCreateAnAccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="106" column="50" selection-start-line="106" selection-start-column="50" selection-end-line="106" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lufthansa/src/main/java/com/barclaycardus/e2e/builders/ShopingCartApplicant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
           </folding>
         </state>
       </provider>

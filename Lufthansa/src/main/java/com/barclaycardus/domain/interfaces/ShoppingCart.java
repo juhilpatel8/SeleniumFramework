@@ -6,5 +6,10 @@ import com.barclaycardus.e2e.builders.ShoppingCartApplicantBuilder;
  * Created by Juhil on 3/20/2016.
  */
 public interface ShoppingCart {
-     void submitASignUpApplication(ShoppingCartApplicantBuilder shoppingCartApplicantBuilder) throws Throwable;
+
+     void clickOnSignInSection(ShoppingCartApplicantBuilder shopingcartapplicantBuilder) throws Throwable;
+
+     void clickOnCreateAnAccount(ShoppingCartApplicantBuilder shopingcartapplicantBuilder)throws Throwable;
+
+     void submitPersonalInformation(ShoppingCartApplicantBuilder shopingcartapplicantBuilder)throws Throwable;
 }

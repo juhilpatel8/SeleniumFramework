@@ -36,7 +36,6 @@ public class CreateAnAccountPage extends ChannelsWebPage<CreateAnAccountPage> {
         // return new LoanApplicationPge().init();
         Thread.sleep(2000);
         waitForVisibilityOfElementById("SubmitCreate");
-        System.out.println("email id ::"+ emailAddress);
         emailId.sendKeys(emailAddress);
         createAnAccountButton.click();
 //        return new FillUpCreateAnAccountPage().init();

@@ -25,7 +25,7 @@ public class ShopingCartApplicant {
     private String addressCountry="United State";
     private String addressAdditionalInformation="Please drop off my package at locker box";
     private String addressHomePhone="2674603277";
-    private String addressMobilePhone=null;
+    private String addressMobilePhone="2674603277";
     private String addressAlias="Home Address";
 
     public String getFirstName() {
