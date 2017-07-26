@@ -1,5 +1,7 @@
 package com.barclaycardus.e2e.utils;
 
+import java.lang.reflect.Field;
+import java.util.Arrays;
 import java.util.Random;
 
 /**
@@ -17,5 +19,38 @@ public class CobaltTestUtils {
         }
         String mi=sb.toString();
         return mi;
+    }
+
+    public static StringBuilder prettifyObject(Object o , String... excludeArray)
+    {
+        if(o==null)
+        {
+            return new StringBuilder();
+        }
+        Field fields[]=o.getClass().getDeclaredFields();
+        StringBuilder resultsBuilder= new StringBuilder("{");
+        for(int i=0;i<fields.length; i++)
+        {
+            Field field=fields[i];
+            try
+            {
+                field.setAccessible(true);
+                if(Arrays.asList(excludeArray).contains(field.getName()))
+                {
+                    continue;
+                }
+                if(field.get(o) != null)
+                {
+                    resultsBuilder.append("\""+field.getName()+"\""+":"+"\""+field.get(o).toString()+"\""+",");
+                }
+            }
+            catch (IllegalAccessException e)
+            {
+                e.printStackTrace();
+            }
+
+        }
+        resultsBuilder.append("}");
+        return resultsBuilder;
     }
 }

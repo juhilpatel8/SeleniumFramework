@@ -3,6 +3,7 @@ import com.barclaycardus.domain.HelperFactory;
 import com.barclaycardus.domain.interfaces.Apply;
 import com.barclaycardus.domain.interfaces.ShoppingCart;
 import com.barclaycardus.e2e.builders.LoanApplicantBuilder;
+import com.barclaycardus.e2e.builders.ScenarioMetaData;
 import com.barclaycardus.e2e.builders.ShoppingCartApplicantBuilder;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +30,17 @@ public abstract class ConsumerLendingSteps {
 
     @Autowired
     HelperFactory helperFactory;
+
+    public ScenarioMetaData getScenarioMetadata() {
+        return scenarioMetadata;
+    }
+
+    public void setScenarioMetadata(ScenarioMetaData scenarioMetadata) {
+        this.scenarioMetadata = scenarioMetadata;
+    }
+
+    @Autowired
+    private ScenarioMetaData scenarioMetadata;
 
     public Apply getApplyHelper()
     {

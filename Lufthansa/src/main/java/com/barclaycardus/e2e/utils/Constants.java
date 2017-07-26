@@ -13,5 +13,7 @@ public class Constants {
     public static final String APPLY="apply";
     public static final String DATA_FOLDER="data";
     public static final String SCHEMA_FOLDER="schema";
+    public static final String PLATFORM_TRACE_ID="PLATFORM_TRACE_ID";
+
 
 }

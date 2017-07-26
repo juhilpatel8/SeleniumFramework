@@ -75,27 +75,42 @@ public class ShoppingSteps extends ConsumerLendingSteps {
 
 
     @Given("^\"([^\"]*)\" go to shoppingcart website And clicks on \"([^\"]*)\" link$")
-    public void goToShoppingcartWebsiteAndClicksOnLink(String arg0, String arg1) throws Throwable {
+    public void goToShoppingcartWebsiteAndClicksOnLink(String shoppingCartApplicantType, String arg1) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        shopingcartapplicantBuilder.setApplicantType(ShopingCartApplicantType.fromValue(shoppingCartApplicantType));
+        getShoppingCartHelper().clickOnSignInSection(shopingcartapplicantBuilder);
+
     }
 
     @When("^he enters email as \"([^\"]*)\" then clicks on create an account button$")
-    public void heEntersEmailAsThenClicksOnCreateAnAccountButton(String arg0) throws Throwable {
+    public void heEntersEmailAsThenClicksOnCreateAnAccountButton(String emailId) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        ShopingCartApplicant shopingCartApplicant=new ShopingCartApplicant();
+        shopingCartApplicant.setEmailAddress(emailId);
+        shopingcartapplicantBuilder.setApplicant(shopingCartApplicant);
+        getShoppingCartHelper().clickOnCreateAnAccount(shopingcartapplicantBuilder);
+
     }
 
     @And("^Enter personal information \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" \"([^\"]*)\" and click on submit button$")
-    public void enterPersonalInformationAndClickOnSubmitButton(String arg0, String arg1, String arg2, String arg3, String arg4) throws Throwable {
+    public void enterPersonalInformationAndClickOnSubmitButton(String title, String firstName, String lastName, String primaryEmail, String phoneNumber) throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        System.out.println("Step personal information-->"+"title:"+title+"First Name:"+firstName+"Last Name:"+lastName+"Phone Number:"+phoneNumber+primaryEmail);
+
+        ShopingCartApplicant shopingCartApplicant=new ShopingCartApplicant();
+        shopingCartApplicant.setFirstName(firstName);
+        shopingCartApplicant.setLastName(lastName);
+        shopingCartApplicant.setEmailAddress(primaryEmail);
+        shopingCartApplicant.setAddressMobilePhone(phoneNumber);
+        shopingcartapplicantBuilder.setApplicant(shopingCartApplicant);
+        getShoppingCartHelper().submitPersonalInformation(shopingcartapplicantBuilder);
+
     }
 
     @Then("^he can view ORDER HISTORY And DETAILS button$")
     public void heCanViewORDERHISTORYAndDETAILSButton() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        getShoppingCartHelper().submitViewOrderHistoryAndDetails(shopingcartapplicantBuilder);
     }
 
     @And("^click on HyperLink to verify order history$")

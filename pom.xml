@@ -93,6 +93,11 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.17</version>
+             <configuration>
+                 <systemPropertyVariables>
+                     <videoReportLocation>${project.build.directory}</videoReportLocation>
+                 </systemPropertyVariables>
+                     </configuration>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -342,6 +347,9 @@
             </activation>
             <properties>
                 <journey>API</journey>
+                <testEnvironment>qa03</testEnvironment>
+                <cucumber.options>--tags @smoke</cucumber.options>
+                <shell.skip>true</shell.skip>
             </properties>
 
         </profile>
@@ -351,7 +359,21 @@
                 <journey>USER</journey>
             </properties>
                    </profile>
+    <profile>
+        <id>shoppingcart-ui-journey-shell</id>
+        <properties>
+            <journey>UI</journey>
+            <testEnvironment>qa03</testEnvironment>
+            <cucumber.options>--tags @ui</cucumber.options>
+            <shell.skip>false</shell.skip>
+            <skipTestForShell>true</skipTestForShell>
+            <shell-suite>-Puser-journey</shell-suite>
+            <enableVideoRecording>N</enableVideoRecording>
+        </properties>
+    </profile>
+
     </profiles>
+
     <modules>
         <module>Lufthansa</module>
     </modules>
