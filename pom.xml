@@ -42,6 +42,7 @@
         <testreport.json>${project.build.directory}/cucumber/cukes-json-report.json</testreport.json>
         <testreport.junit>${project.build.directory}/cucumber/cukes-junit-report.xml</testreport.junit>
         <testreport.html>${project.build.directory}/cucumber/pretty</testreport.html>
+        <headlessAwtWidgets>false</headlessAwtWidgets>
     </properties>
 
     <build>
@@ -96,6 +97,7 @@
              <configuration>
                  <systemPropertyVariables>
                      <videoReportLocation>${project.build.directory}</videoReportLocation>
+                     <java.awt.headless>${headlessAwtWidgets}</java.awt.headless>
                  </systemPropertyVariables>
                      </configuration>
                 </plugin>

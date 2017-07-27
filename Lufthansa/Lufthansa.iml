@@ -131,5 +131,14 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:4.1.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.1.6.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.1.6.RELEASE" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/monte-screen-recorder-0.7.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

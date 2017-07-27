@@ -1,4 +1,4 @@
-/*
+
 package com.barclaycardus.cucumber;
 
 import com.barclaycardus.e2e.exception.MonteBeanCreationException;
@@ -24,7 +24,7 @@ import java.util.Date;
  */
 //extends ConsumerLendingSteps
 
-/**
+
 public class CucumberHooks extends ConsumerLendingSteps {
 
     private static final Logger log = org.slf4j.LoggerFactory.getLogger(CucumberHooks.class);
@@ -35,7 +35,7 @@ public class CucumberHooks extends ConsumerLendingSteps {
      * This code shoudl be present in all the step defs which embeds the screensot to failed scenrios
      */
 
-/**
+
     @After
     public void tearDown(Scenario scenario) {
         if (JourneyEnum.USER.name().equalsIgnoreCase(CucumberUtils.getJourneyType())) {
@@ -53,11 +53,11 @@ public class CucumberHooks extends ConsumerLendingSteps {
 
     @Before
     public void startFeature(Scenario scenario) {
-//        getScenarioMetadata().setId(UUID.randomUUID().toString());
-//        getScenarioMetadata().setScenarioName(scenario.getName());
+        getScenarioMetadata().setId(UUID.randomUUID().toString());
+        getScenarioMetadata().setScenarioName(scenario.getName());
 
         String traceId = "UI_JOURNEY" + RandomStringUtils.randomAlphanumeric(10).toUpperCase() + "_" + (new Date(System.currentTimeMillis()));
-        System.setProperty(Constants.SCHEMA_FOLDER, traceId);
+        System.setProperty(Constants.PLATFORM_TRACE_ID, traceId);
 
         if ((JourneyEnum.USER.name().equalsIgnoreCase(CucumberUtils.getJourneyType())) && !"linux".equalsIgnoreCase(System.getProperty("os.name"))) {
             ScreenRecorder screenRecorder = null;
@@ -78,4 +78,3 @@ public class CucumberHooks extends ConsumerLendingSteps {
 
 }
 
-**/

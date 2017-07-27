@@ -202,10 +202,18 @@
 
         <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot -->
         <!-- https://mvnrepository.com/artifact/org.monte/monte-screen-recorder -->
+        <!-- https://mvnrepository.com/artifact/org.monte/screen-recorder -->
+        <!--<dependency>-->
+            <!--<groupId>org.monte</groupId>-->
+            <!--<artifactId>screen-recorder</artifactId>-->
+            <!--<version>0.7.7</version>-->
+        <!--</dependency>-->
         <dependency>
-            <groupId>com.google.code</groupId>
+            <groupId>monte</groupId>
             <artifactId>monte-screen-recorder</artifactId>
             <version>0.7.7</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/monte/monte-screen-recorder-0.7.7.jar</systemPath>
         </dependency>
 
 
