@@ -1,0 +1,10 @@
+com\barclaycardus\data\repositories\UserAccountRepository.class
+com\barclaycardus\data\entities\UserAccount.class
+com\barclaycardus\data\repositories\PersonsRepository.class
+com\barclaycardus\data\util\DataConstants.class
+com\barclaycardus\data\configuration\DataSourceConfig.class
+com\barclaycardus\data\util\SecurityUtil.class
+com\barclaycardus\data\service\impl\PersonsServiceImpl.class
+com\barclaycardus\data\entities\Persons.class
+com\barclaycardus\data\Application.class
+com\barclaycardus\data\service\impl\UserAccountServiceImpl.class
