@@ -103,6 +103,8 @@ public class ShoppingSteps extends ConsumerLendingSteps {
         shopingCartApplicant.setEmailAddress(primaryEmail);
         shopingCartApplicant.setAddressMobilePhone(phoneNumber);
         shopingcartapplicantBuilder.setApplicant(shopingCartApplicant);
+
+        getBuildShoppingCartAccount().buildCreateAccountJson(shopingcartapplicantBuilder);
         getShoppingCartHelper().submitPersonalInformation(shopingcartapplicantBuilder);
 
     }

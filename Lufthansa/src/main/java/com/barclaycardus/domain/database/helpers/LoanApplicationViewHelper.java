@@ -1,7 +1,9 @@
 package com.barclaycardus.domain.database.helpers;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 
+//import com.cardus.*;
 import java.util.Random;
 
 /**
@@ -9,7 +11,12 @@ import java.util.Random;
  */
 @Configuration
 public class LoanApplicationViewHelper {
-
+//
+//  @Autowired
+//  PersonsSercieImpl personsServiceImpl;
+//
+//  @Autowired
+//  UserAccountServiceImpl userAccountServiceImpl;
 
     public String getEmailId()
     {

@@ -21,6 +21,14 @@ public class CobaltTestUtils {
         return mi;
     }
 
+    public static String getRandomEmailID()
+    {
+        Random randomGenerator = new Random();
+        int randomInt = randomGenerator.nextInt(1000);
+        return  "username"+ randomInt +"@gmail.com";
+
+    }
+
     public static StringBuilder prettifyObject(Object o , String... excludeArray)
     {
         if(o==null)

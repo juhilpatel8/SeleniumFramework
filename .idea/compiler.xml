@@ -22,11 +22,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="cucumber" />
+        <module name="hibernate-validation" />
         <module name="Lufthansa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ConsumerLanding" target="1.7" />
+      <module name="cucumber" target="1.8" />
+      <module name="data-validation" target="1.7" />
+      <module name="hibernate-validation" target="1.7" />
       <module name="Lufthansa" target="1.8" />
     </bytecodeTargetLevel>
   </component>

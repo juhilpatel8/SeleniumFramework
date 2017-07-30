@@ -41,7 +41,7 @@
         <maven.compiler.version>3.3</maven.compiler.version>
         <testreport.json>${project.build.directory}/cucumber/cukes-json-report.json</testreport.json>
         <testreport.junit>${project.build.directory}/cucumber/cukes-junit-report.xml</testreport.junit>
-        <testreport.html>${project.build.directory}/cucumber/pretty</testreport.html>
+        <testreport.html>${project.build.directory}/cucumber/cukes-html-report</testreport.html>
         <headlessAwtWidgets>false</headlessAwtWidgets>
     </properties>
 

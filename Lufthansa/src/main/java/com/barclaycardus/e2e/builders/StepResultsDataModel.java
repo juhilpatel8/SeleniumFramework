@@ -14,6 +14,8 @@ public class StepResultsDataModel {
 
     private String emailId;
 
+    private String customerId;
+
     public String getFirstName() {
         return firstName;
     }
@@ -37,6 +39,15 @@ public class StepResultsDataModel {
     public void setEmailId(String emailId) {
         this.emailId = emailId;
     }
+
+    public String getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(String customerId) {
+        this.customerId = customerId;
+    }
+
 
     @Override
     public String toString() {

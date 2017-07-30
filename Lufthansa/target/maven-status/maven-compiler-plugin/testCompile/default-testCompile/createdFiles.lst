@@ -1,3 +1,4 @@
+com\barclaycardus\cucumber\builders\BuildShoppingCartAccount.class
 com\barclaycardus\cucumber\RunCukesTest.class
 com\barclaycardus\cucumber\steps\ShoppingSteps.class
 com\barclaycardus\cucumber\CucumberHooks.class

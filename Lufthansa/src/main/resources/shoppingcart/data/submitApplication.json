@@ -1,0 +1,28 @@
+{
+  "applicant":
+  {
+    "personalInformation":{
+      "title":"Mr",
+      "firstName":"{{firstName}}",
+      "lastName":"{{lastName}}",
+      "email":"{{primaryEmail}}",
+      "password":"{{password}}",
+      "dateOfBirth":"12/09/1991"
+    },
+    "address":{
+      "firstName":"juhil",
+      "lastName":"patel",
+      "company":"wishtree",
+      "addressLine1":"125 json",
+      "addressLine2":"Apt 56",
+      "city":"Bensalem",
+      "state":"PA",
+      "zip":"19020",
+      "country":"USA",
+      "additionalInformation":"This is note from json",
+      "homePhone":"2674603270",
+      "mobilePhone":"2674603271",
+      "alias":"Er"
+    }
+  }
+}

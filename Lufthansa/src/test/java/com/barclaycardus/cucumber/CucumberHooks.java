@@ -42,11 +42,46 @@ public class CucumberHooks extends ConsumerLendingSteps {
             //take a screenshot
 //            byte[] screenshot = null;
 //            try {
-////               screenshot=captureScreen(getUiDriver());
+//               screenshot=captureScreen(getUiDriver());
 //
 //            } catch (Exception e) {
 //
+//                log.error("error capturing the screenshot: "+e.getMessage());
 //            }
+//            scenario.embed(screenshot,"image/png");
+//
+//            if(scenario.isFailed())
+//            {
+//                try
+//                {
+//                    getSharedDriver().restart();
+//                }
+//                catch(Exception e)
+//                {
+//
+//                }
+//            }
+            if(!"linux".equalsIgnoreCase(System.getProperty("os.name")))
+            {
+                try
+                {
+                    ScreenRecorder screenRecorder=null;
+                    screenRecorder=recordScript.getScreenRecorderInstance();
+                    screenRecorder.stop();
+                }
+                catch (MonteBeanCreationException e)
+                {
+                    log.error("Unable to start the video recording"+e.getMessage());
+                }
+                catch (IOException e)
+                {
+                    log.error("unable to start video recording"+e.getMessage());
+                }
+                finally {
+                    recordScript.close();
+                }
+            }
+
 
         }
     }

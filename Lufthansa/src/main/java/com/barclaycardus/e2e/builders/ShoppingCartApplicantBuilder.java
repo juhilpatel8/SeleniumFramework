@@ -17,6 +17,27 @@ public class ShoppingCartApplicantBuilder {
     private ShopingCartApplicantType applicantType;
     private String loanReferenceNumber = null;
 
+    private String emailIdJson;
+    private String createAnAccountJson;
+
+
+    public String getCreateAnAccountJson() {
+        return createAnAccountJson;
+    }
+
+    public void setCreateAnAccountJson(String createAnAccountJson) {
+        this.createAnAccountJson = createAnAccountJson;
+    }
+
+    public String getEmailIdJson() {
+        return emailIdJson;
+    }
+
+    public void setEmailIdJson(String emailIdJson) {
+        this.emailIdJson = emailIdJson;
+    }
+
+
     public ShopingCartApplicant getApplicant() {
         return applicant;
     }

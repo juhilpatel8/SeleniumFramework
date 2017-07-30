@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ConsumerLanding.iml" filepath="$PROJECT_DIR$/ConsumerLanding.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Lufthansa/Lufthansa.iml" filepath="$PROJECT_DIR$/Lufthansa/Lufthansa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data-validation/data-validation.iml" filepath="$PROJECT_DIR$/data-validation/data-validation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lufthansa/cucumber.iml" filepath="$PROJECT_DIR$/Lufthansa/cucumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hibernate-validation/hibernate-validation.iml" filepath="$PROJECT_DIR$/hibernate-validation/hibernate-validation.iml" />
     </modules>
   </component>
 </project>

@@ -14,6 +14,7 @@ import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import com.barclaycardus.e2e.utils.ReadProperties;
+import org.springframework.stereotype.Component;
 
 import java.net.UnknownHostException;
 import java.util.concurrent.TimeUnit;
@@ -21,6 +22,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by Juhil on 3/27/2016.
  */
+@Component
 public class SharedDriver extends EventFiringWebDriver {
     private static WebDriver REAL_DRIVER;
     private static final Thread CLOSE_THREAD = new Thread() {

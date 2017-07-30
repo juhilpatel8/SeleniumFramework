@@ -23,4 +23,4 @@ Feature: Shopping Website
     Then he can view ORDER HISTORY And DETAILS button
     Examples:
     |title|firstName|lastName|primaryEmail|phoneNumber|
-    |Mr|Juhil|Patel|juhil.patel@gmail.com|2672132112|
+    |Mr|Juhil|Patel|juhil.patel12@gmail.com|2672132112|

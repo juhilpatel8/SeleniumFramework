@@ -216,6 +216,11 @@
             <systemPath>${project.basedir}/src/main/resources/monte/monte-screen-recorder-0.7.7.jar</systemPath>
         </dependency>
 
+        <!--<dependency>-->
+            <!--<groupId>com.cardus</groupId>-->
+            <!--<artifactId>data</artifactId>-->
+            <!--<version>1.0.0-revision-SNAPSHOT</version>-->
+        <!--</dependency>-->
 
     </dependencies>
 </project>

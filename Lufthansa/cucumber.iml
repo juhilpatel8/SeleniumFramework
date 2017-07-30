@@ -12,6 +12,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://C:/monte-screen-recorder-0.7.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:cucumber-spring:1.2.2" level="project" />
@@ -132,9 +141,9 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:4.1.6.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.1.6.RELEASE" level="project" />
     <orderEntry type="module-library">
-      <library>
+      <library name="Maven: monte:monte-screen-recorder:0.7.7">
         <CLASSES>
-          <root url="jar://C:/monte-screen-recorder-0.7.7.jar!/" />
+          <root url="jar://$MODULE_DIR$/src/main/resources/monte/monte-screen-recorder-0.7.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

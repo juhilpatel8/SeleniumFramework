@@ -1,10 +1,12 @@
 package com.barclaycardus.cucumber;
+import com.barclaycardus.cucumber.builders.BuildShoppingCartAccount;
 import com.barclaycardus.domain.HelperFactory;
 import com.barclaycardus.domain.interfaces.Apply;
 import com.barclaycardus.domain.interfaces.ShoppingCart;
 import com.barclaycardus.e2e.builders.LoanApplicantBuilder;
 import com.barclaycardus.e2e.builders.ScenarioMetaData;
 import com.barclaycardus.e2e.builders.ShoppingCartApplicantBuilder;
+import com.barclaycardus.e2e.ui.pages.SharedDriver;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.IntegrationTest;
@@ -31,6 +33,27 @@ public abstract class ConsumerLendingSteps {
     @Autowired
     HelperFactory helperFactory;
 
+    @Autowired
+    SharedDriver sharedDriver;
+
+    @Autowired
+    private ScenarioMetaData scenarioMetadata;
+
+    @Autowired
+    private BuildShoppingCartAccount buildShoppingCartAccount;
+
+    public BuildShoppingCartAccount getBuildShoppingCartAccount() {
+        return buildShoppingCartAccount;
+    }
+
+    public void setBuildShoppingCartAccount(BuildShoppingCartAccount buildShoppingCartAccount) {
+        this.buildShoppingCartAccount = buildShoppingCartAccount;
+    }
+
+    public SharedDriver getSharedDriver() {
+        return sharedDriver;
+    }
+
     public ScenarioMetaData getScenarioMetadata() {
         return scenarioMetadata;
     }
@@ -38,9 +61,6 @@ public abstract class ConsumerLendingSteps {
     public void setScenarioMetadata(ScenarioMetaData scenarioMetadata) {
         this.scenarioMetadata = scenarioMetadata;
     }
-
-    @Autowired
-    private ScenarioMetaData scenarioMetadata;
 
     public Apply getApplyHelper()
     {
